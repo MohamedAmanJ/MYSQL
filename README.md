@@ -87,7 +87,8 @@ SELECT
 FROM patients;
 ```
 
-📈 Concepts Practiced
+📈 Concepts 
+
 SELECT
 WHERE
 BETWEEN
@@ -100,6 +101,7 @@ INNER JOIN
 UNION
 CASE
 Aggregate Functions
+
 🚀 Purpose of This Project
 
 This project was created to strengthen practical SQL skills for Data Analyst roles by solving real-world healthcare database problems.
