@@ -66,3 +66,23 @@ The database includes tables such as:
 SELECT first_name, last_name, gender
 FROM patients
 WHERE gender = 'M';
+```
+
+Example 2: Full Name Concatenation
+```sql
+SELECT CONCAT(first_name, ' ', last_name) AS full_name
+FROM patients;
+```
+
+Example 3: Obesity Classification
+```sql
+SELECT 
+    patient_id,
+    weight,
+    height,
+    CASE 
+        WHEN weight / POWER(height / 100.0, 2) >= 30 THEN 1
+        ELSE 0
+    END AS isObese
+FROM patients;
+```
