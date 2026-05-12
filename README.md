@@ -86,3 +86,25 @@ SELECT
     END AS isObese
 FROM patients;
 ```
+
+📈 Concepts Practiced
+SELECT
+WHERE
+BETWEEN
+LIKE
+IN
+ORDER BY
+GROUP BY
+HAVING
+INNER JOIN
+UNION
+CASE
+Aggregate Functions
+🚀 Purpose of This Project
+
+This project was created to strengthen practical SQL skills for Data Analyst roles by solving real-world healthcare database problems.
+
+👨‍💻 Author
+
+Mohamed Amaan
+Aspiring Data Analyst skilled in Python, SQL, Excel, and Power BI.
